@@ -1,4 +1,4 @@
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/Side";
 
 export default function Dashboard() {
   return (
