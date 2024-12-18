@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Sidebar from "./components/sideBar";
+import Sidebar from "./components/SideBar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -22,8 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      
-      <link rel="icon" type="image/png" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{metadata.title}</title>
